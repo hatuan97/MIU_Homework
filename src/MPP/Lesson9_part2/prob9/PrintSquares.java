@@ -1,4 +1,4 @@
-package MPP.prob9;
+package MPP.Lesson9_part2.prob9;
 
 import java.util.stream.IntStream;
 

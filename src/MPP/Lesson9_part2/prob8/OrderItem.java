@@ -1,4 +1,4 @@
-package MPP.prob8;
+package MPP.Lesson9_part2.prob8;
 
 public class OrderItem {
 	private Product product;

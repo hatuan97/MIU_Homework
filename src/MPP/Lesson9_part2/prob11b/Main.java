@@ -1,13 +1,12 @@
-package MPP.prob11a;
+package MPP.Lesson9_part2.prob11b;
 
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 
 public class Main {
 
 	public static void main(String[] args) {
-		List<Employee> emps = Arrays.asList(new Employee("Joe", "Davis", 120000),
+		List<Employee> list = Arrays.asList(new Employee("Joe", "Davis", 120000),
 				          new Employee("John", "Sims", 110000),
 				          new Employee("Joe", "Stevens", 200000),
 		                  new Employee("Andrew", "Reardon", 80000),
@@ -16,18 +15,9 @@ public class Main {
 		                  new Employee("Thomas", "Blake", 111000),
 		                  new Employee("Alice", "Richards", 101000),
 		                  new Employee("Donald", "Trump", 100000));
-		
-		  System.out.println(emps.stream()
-				  .filter(e -> e.getSalary() > 100000 && e.getLastName().charAt(0) > 'M')
-				  .map(e -> e.firstName + " " + e.lastName)
-				  .sorted()
-				  .collect(Collectors.toList()));
-				               
-		  
 
+		TriFunction<List<Employee>, Integer, Character, String> tri = new LambdaLibrary();
+		System.out.println(tri.apply(list, 100000, 'M'));
 	}
-	
-	
-	
 
 }

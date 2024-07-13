@@ -1,4 +1,4 @@
-package MPP.prob12;
+package MPP.Lesson9_part2.prob12;
 
 import java.util.Optional;
 

@@ -1,4 +1,4 @@
-package MPP.prob11b;
+package MPP.Lesson9_part2.prob11b;
 
 import java.util.List;
 import java.util.stream.Collectors;
