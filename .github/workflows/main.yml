@@ -1,4 +1,4 @@
-name: CI/CD Pipeline
+name: Java CI/CD Pipeline
 
 on:
   push:
@@ -14,13 +14,56 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4  # Update to the latest version
+        uses: actions/checkout@v4
 
       - name: Set up JDK
-        uses: actions/setup-java@v4  # Update to the latest version
+        uses: actions/setup-java@v4
         with:
-          java-version: '11'
+          java-version: '17'  # Specify the JDK version here
           distribution: 'adoptopenjdk'
+
+      - name: Set up Maven
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'  # Ensure the Java version matches
+          maven-version: '3.8.6'  # Specify the Maven version here
 
       - name: Build with Maven
         run: mvn clean install
+
+      - name: Run tests
+        run: mvn test
+
+      # Optionally, deploy steps can be added here
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'adoptopenjdk'
+
+      - name: Set up Maven
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          maven-version: '3.8.6'
+
+      - name: Build with Maven
+        run: mvn clean install
+
+      - name: Run tests
+        run: mvn test
+
+      - name: Deploy to AWS S3
+        uses: aws-actions/s3-sync-action@v1
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          SOURCE_DIR: './target'
+          DEST_DIR: 's3://$AWS_S3_BUCKET'
