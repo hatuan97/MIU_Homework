@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f91fa6c-fadf-4658-97d4-12ad6c77cc61" name="Changes" comment="" />
+    <list default="true" id="1f91fa6c-fadf-4658-97d4-12ad6c77cc61" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/Lab7a-1.2-java-version.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/Lab7a-4-maven-version.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/Lab7a-5.3-sort-and-print-students.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/Lab7a-5.4-platium-alumni-students.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/Lab7a-5.5-print-helloworld-find-second-biggest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/studentrecordsmgmtapp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/studentrecordsmgmtapp/src/main/java/edu/miu/cs/cs425/studentrecordsmgmtapp/MyStudentRecordsMgmtApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/studentrecordsmgmtapp/src/main/java/edu/miu/cs/cs425/studentrecordsmgmtapp/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/studentrecordsmgmtapp/target/studentrecordsmgmtapp-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/MortgageProject/src/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/MortgageProject/src/MortgageCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/MortgageProject/src/MortgageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/MortgageProject/src/ProfessionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/ShoppingCart/src/application/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/ShoppingCart/src/products/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/ShoppingCart/src/shoppingcart/CartLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/ShoppingCart/src/shoppingcart/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +29,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2jCml7ZUdAI9SV9eLCjWK1oLJhx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,6 +45,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
