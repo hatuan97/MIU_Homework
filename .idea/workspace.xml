@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f91fa6c-fadf-4658-97d4-12ad6c77cc61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/Lab7a-1.2-java-version.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/Lab7a-4-maven-version.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/Lab7a-5.3-sort-and-print-students.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/Lab7a-5.4-platium-alumni-students.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/Lab7a-5.5-print-helloworld-find-second-biggest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/studentrecordsmgmtapp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/studentrecordsmgmtapp/src/main/java/edu/miu/cs/cs425/studentrecordsmgmtapp/MyStudentRecordsMgmtApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/studentrecordsmgmtapp/src/main/java/edu/miu/cs/cs425/studentrecordsmgmtapp/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7a/studentrecordsmgmtapp/target/studentrecordsmgmtapp-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/MortgageProject/src/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/MortgageProject/src/MortgageCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/MortgageProject/src/MortgageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/MortgageProject/src/ProfessionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/ShoppingCart/src/application/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/ShoppingCart/src/products/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/ShoppingCart/src/shoppingcart/CartLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE/Lab7b/ShoppingCart/src/shoppingcart/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="1f91fa6c-fadf-4658-97d4-12ad6c77cc61" name="Changes" comment="lab7ab">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +15,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hatuan97&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hatuan97/MIU_Homework&quot;,
+    &quot;accountId&quot;: &quot;6a5c5861-1cf0-445a-a98d-4e542f277750&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -40,19 +38,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tuanh/Downloads/fairfieldlibrarywebapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MIU_Homework\src\SWE\Lab7b\MortgageProject\src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MPP.prob7.Main" />
@@ -90,10 +94,45 @@
       <option name="presentableId" value="Default" />
       <updated>1720899583342</updated>
       <workItem from="1720899584429" duration="1000" />
+      <workItem from="1722976467046" duration="36000" />
+      <workItem from="1723593641151" duration="70000" />
+      <workItem from="1723593726173" duration="179000" />
     </task>
+    <task id="LOCAL-00001" summary="lab7ab">
+      <option name="closed" value="true" />
+      <created>1722832089714</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722832089714</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lab7ab">
+      <option name="closed" value="true" />
+      <created>1722832187018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722832187018</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab7ab" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab7ab" />
   </component>
 </project>
